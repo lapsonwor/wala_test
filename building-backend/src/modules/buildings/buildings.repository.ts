@@ -45,6 +45,6 @@ export class BuildingsRepository extends Repository<Buildings> {
   }
 
   async getBuildings() {
-    return this.query(`SELECT PrimaryPropertyType, PropertyName, Address, NumberOfFloors, CouncilDistrictCode, YearBuilt From Buildings`);
+    return this.query(`SELECT PrimaryPropertyType, PropertyName, Address, NumberOfFloors, CouncilDistrictCode, YearBuilt From buildings`);
   }
 }
