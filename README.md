@@ -2,6 +2,7 @@
 ```
 docker-compose up -d
 ```
+For the first time running mysql, you may not able to turn on the backend due to cannot connect the mysql server. Please wait until you can connect the mysql in your localhost. Later, you can turn on the backend.
 # Frontend access
 http://127.0.0.1:3001
 username: admin
