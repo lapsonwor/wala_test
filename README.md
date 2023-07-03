@@ -1,3 +1,7 @@
+# Build and start the project by following command
+```
+docker-compose up -d
+```
 # Varadise Web Developer Exercise
 
 ## Basic requirements ( 16/08/21 ) Revised ( 01/06/23 )

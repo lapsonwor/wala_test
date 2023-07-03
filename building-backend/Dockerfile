@@ -5,6 +5,5 @@ COPY ./yarn.lock ./
 RUN yarn
 COPY . .
 RUN yarn build
-RUN ls /app/dist
 EXPOSE 3000
 CMD ["yarn", "start:prod"]
