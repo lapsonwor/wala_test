@@ -2,6 +2,9 @@
 ```
 docker-compose up -d
 ```
+# Frontend access
+http://127.0.0.1:3001
+
 # Varadise Web Developer Exercise
 
 ## Basic requirements ( 16/08/21 ) Revised ( 01/06/23 )
