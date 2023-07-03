@@ -4,6 +4,8 @@ docker-compose up -d
 ```
 # Frontend access
 http://127.0.0.1:3001
+username: admin
+password: password
 
 # Varadise Web Developer Exercise
 
