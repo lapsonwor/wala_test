@@ -17,7 +17,7 @@ export const useLogin = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     const resetCredential = useCallback(() => {
-        dispatch(resetAppCredential);
+        dispatch(resetAppCredential());
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
